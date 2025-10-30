@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "H9X0szuU8t3C77yfaLvhqYPQ9LviUHkPRSMPHMqnmD8=",
+  "Source": "SmartCertify.Api",
+  "BasePath": "_content/SmartCertify.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
