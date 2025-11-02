@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ahmed\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Domain\\SmartCertify.Domain.csproj": {}
+    "E:\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Domain\\SmartCertify.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Ahmed\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Domain\\SmartCertify.Domain.csproj": {
+    "E:\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Domain\\SmartCertify.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ahmed\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Domain\\SmartCertify.Domain.csproj",
+        "projectUniqueName": "E:\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Domain\\SmartCertify.Domain.csproj",
         "projectName": "SmartCertify.Domain",
-        "projectPath": "D:\\Ahmed\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Domain\\SmartCertify.Domain.csproj",
+        "projectPath": "E:\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Domain\\SmartCertify.Domain.csproj",
         "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\Ahmed\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Domain\\obj\\",
+        "outputPath": "E:\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,26 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Ahmed\\MyRevProject\\SmartCertify\\backend\\src\\",
+  "WorkspaceRootPath": "E:\\MyRevProject\\SmartCertify\\backend\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE21FAF5-A984-491D-B70B-158B67884345}|SmartCertify.Api\\SmartCertify.Api.csproj|d:\\ahmed\\myrevproject\\smartcertify\\backend\\src\\smartcertify.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CE21FAF5-A984-491D-B70B-158B67884345}|SmartCertify.Api\\SmartCertify.Api.csproj|e:\\myrevproject\\smartcertify\\backend\\src\\smartcertify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE21FAF5-A984-491D-B70B-158B67884345}|SmartCertify.Api\\SmartCertify.Api.csproj|solutionrelative:smartcertify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE21FAF5-A984-491D-B70B-158B67884345}|SmartCertify.Api\\SmartCertify.Api.csproj|e:\\myrevproject\\smartcertify\\backend\\src\\smartcertify.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE21FAF5-A984-491D-B70B-158B67884345}|SmartCertify.Api\\SmartCertify.Api.csproj|solutionrelative:smartcertify.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5057EE5E-8183-48D9-8C5E-25F0A78B44D8}|SmartCertify.Infrastructure\\SmartCertify.Infrastructure.csproj|e:\\myrevproject\\smartcertify\\backend\\src\\smartcertify.infrastructure\\smartcertifydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5057EE5E-8183-48D9-8C5E-25F0A78B44D8}|SmartCertify.Infrastructure\\SmartCertify.Infrastructure.csproj|solutionrelative:smartcertify.infrastructure\\smartcertifydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\Ahmed\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Api\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Api\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "SmartCertify.Api\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\Ahmed\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Api\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Api\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "SmartCertify.Api\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T08:35:41.367Z",
+              "WhenOpened": "2025-11-02T10:11:04.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SmartCertifyDbContext.cs",
+              "DocumentMoniker": "E:\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Infrastructure\\SmartCertifyDbContext.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Infrastructure\\SmartCertifyDbContext.cs",
+              "ToolTip": "E:\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Infrastructure\\SmartCertifyDbContext.cs",
+              "RelativeToolTip": "SmartCertify.Infrastructure\\SmartCertifyDbContext.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:28:23.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Api\\Program.cs",
+              "ToolTip": "E:\\MyRevProject\\SmartCertify\\backend\\src\\SmartCertify.Api\\Program.cs",
+              "RelativeToolTip": "SmartCertify.Api\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:39:55.069Z",
               "EditorCaption": ""
             }
           ]
