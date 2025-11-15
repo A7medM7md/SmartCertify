@@ -1,0 +1,76 @@
+# Build artifacts
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider IDE
+.idea/
+
+# ASP.NET Core
+appsettings.*.json
+appsettings.json.user
+*.db
+*.sqlite
+
+# Entity Framework Core migrations
+Migrations/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Node.js / front-end
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Azure Web Apps publish settings
+*.PublishSettings
+
+# User secrets
+secrets.json
+secrets.*
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.*
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Others
+*.cache
+*.bak
+*.swp
+*.old
+*.orig
