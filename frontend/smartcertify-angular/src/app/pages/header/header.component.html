@@ -17,18 +17,18 @@
                     <a class="nav-link" [routerLink]="['/home']" routerLinkActive="active"
                         [routerLinkActiveOptions]="{ exact: true }">Home</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" [routerLink]="['/user-exams']" routerLinkActive="active"
                         [routerLinkActiveOptions]="{ exact: true }">User Exams</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" [routerLink]="['/courses']" routerLinkActive="active"
                         [routerLinkActiveOptions]="{ exact: true }">Courses</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" [routerLink]="['/videos']" routerLinkActive="active"
                         [routerLinkActiveOptions]="{ exact: true }">Videos</a>
-                </li>
+                </li> -->
                 <!-- Update Profile -->
                 <!-- <li class="nav-item" *ngIf="loginDisplay">
                     <a class="nav-link" [routerLink]="['/user/update-profile']"
@@ -36,7 +36,7 @@
                         Profile</a>
                 </li> -->
                 <!-- Examples Dropdown -->
-                <!-- <li class="nav-item dropdown">
+                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="coursesDropdown" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         Concepts </a>
@@ -46,7 +46,9 @@
                         </li>
 
                     </ul>
-                </li> -->
+                </li>
+
+
                 <!-- @if(this.isAdmin){
                 <li class="nav-item">
                     <a class="nav-link" [routerLink]="['/admin/question/list']" routerLinkActive="active">View
