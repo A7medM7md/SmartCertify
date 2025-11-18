@@ -1,0 +1,46 @@
+﻿using FluentValidation;
+using SmartCertify.Application.DTOs.Questions;
+
+namespace SmartCertify.Application.DTOValidations.QuestionsChoices
+{
+    public class QuestionValidator : AbstractValidator<CreateQuestionDto>
+    {
+        public QuestionValidator()
+        {
+            RuleFor(q => q.QuestionText)
+                .NotEmpty()
+                .WithMessage("Question text is required.")
+                .MaximumLength(500)
+                .WithMessage("Question text cannot exceed 500 characters.");
+
+            RuleFor(q => q.DifficultyLevel)
+                .NotEmpty()
+                .WithMessage("Difficulty level is required.")
+                .MaximumLength(20)
+                .WithMessage("Difficulty level cannot exceed 20 characters.");
+
+            RuleFor(q => q.CourseId)
+                .GreaterThan(0)
+                .WithMessage("CourseId must be greater than 0.");
+        }
+    }
+
+    public class UpdateQuestionValidator : AbstractValidator<UpdateQuestionDto>
+    {
+        public UpdateQuestionValidator()
+        {
+            RuleFor(q => q.QuestionText)
+                .NotEmpty()
+                .WithMessage("Question text is required.")
+                .MaximumLength(500)
+                .WithMessage("Question text cannot exceed 500 characters.");
+
+            RuleFor(q => q.DifficultyLevel)
+                .NotEmpty()
+                .WithMessage("Difficulty level is required.")
+                .MaximumLength(20)
+                .WithMessage("Difficulty level cannot exceed 20 characters.");
+        }
+    }
+
+}
