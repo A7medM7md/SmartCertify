@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
+import { CoursesComponent } from './components/courses/courses.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -17,6 +18,11 @@ export const routes: Routes = [
         loadComponent: () => import('./pages/contact-us/contact-us.component')
             .then(m => m.ContactUsComponent)
     },
+    {
+        path: 'courses',
+        component: CoursesComponent
+    },
+
 
     { path: '**', redirectTo: 'home' }
 ];
